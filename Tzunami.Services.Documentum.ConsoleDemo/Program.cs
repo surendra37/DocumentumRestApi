@@ -15,8 +15,8 @@ namespace Tzunami.Services.Documentum.ConsoleDemo
             try
             {
                 var demo = new DocumentumDemo();
-                //demo.InteractiveDemo();
-                demo.Run();
+                demo.InteractiveDemo();
+                //demo.Run();
             }
             catch (Exception ex)
             {
