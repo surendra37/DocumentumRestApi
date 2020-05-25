@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;netstandard20</TargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <!--<DefineConstants>$(DefineConstants);REMOTING;HASHTABLE</DefineConstants>-->
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.10.1" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tzunami.Services.Documentum.ConsoleDemo", "Tzunami.Services.Documentum.ConsoleDemo\Tzunami.Services.Documentum.ConsoleDemo.csproj", "{B96CA228-E895-40DC-8661-01ED400ED21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emc.Documentum.Rest", "Emc.Documentum.Rest\Emc.Documentum.Rest.csproj", "{2600E2EF-F3AE-49B8-BC5E-719556228D21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96CA228-E895-40DC-8661-01ED400ED21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96CA228-E895-40DC-8661-01ED400ED21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96CA228-E895-40DC-8661-01ED400ED21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96CA228-E895-40DC-8661-01ED400ED21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2600E2EF-F3AE-49B8-BC5E-719556228D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2600E2EF-F3AE-49B8-BC5E-719556228D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2600E2EF-F3AE-49B8-BC5E-719556228D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2600E2EF-F3AE-49B8-BC5E-719556228D21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14D8E4FA-6586-4C3E-9A48-1C4D1DB8B39F}
+	EndGlobalSection
+EndGlobal
